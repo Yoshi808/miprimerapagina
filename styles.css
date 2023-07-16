@@ -1,6 +1,10 @@
 body {
 background-image:url("FondoMario.jpg");
 background-size: 1250px 1030px;
+cursor: url(cursormario.png), auto;
+}
+li:hover{
+  cursor: url(cursormario2.png), pointer;
 }
 h1 {
     color: wheat;
@@ -85,7 +89,7 @@ h2 {
     border: 6px inset red;
     transition: 1.5s;
     transform: scale(2);
-    cursor:pointer;
+    cursor: url(cursormario2.png),pointer;
   }
   input {
     background-color: brown;
