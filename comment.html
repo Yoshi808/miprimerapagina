@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <title>Barra de comentarios</title>
   <link rel="stylesheet" type="text/css" href="styles2.css">
@@ -16,6 +16,8 @@
           <li><a href="index.html">Inicio</a></li>
         </ul>
         <button class="button-menu-toggle">Menu</button>
+      </nav>
+    </div>
   </header>
   <main>
     <h1>Barra de comentarios</h1>
@@ -26,17 +28,14 @@
         <textarea id="comment-textarea" placeholder="Escribe tu comentario" required></textarea>
         <button type="submit">Enviar comentario</button>
       </form>
-    <div id="comments-list"></div>
-  </div>
+      <div id="comments-list"></div>
+    </div>
   </main>
   <!--Pie de página-->
   <footer>
     <p>información sobre el desarrolador</p>
     <button id="boton" onclick="showAlert()" aria-label="No hagas clic en mí"> ¡No hagas click en mí!</button>
-</footer>
+  </footer>
   <script src="script.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
 </body>
 </html>
-
